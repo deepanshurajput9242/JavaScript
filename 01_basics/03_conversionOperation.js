@@ -27,4 +27,42 @@ console.log(booleanIsLoggedIn);
 let someNumer=33
 let stringNumber= String(someNumer)
 console.log(stringNumber);
+// ******************************operations *****************************8//
+let value=3
+let negValue=-value
+let str1="Hitesh"
+let str2="Rajput"
+
+let str=str1+" "+str2;
+
+
+console.log(str);
+
+console.log("1" +2);//12
+console.log(1+"2");//12
+console.log("1"+2 +2);//122
+console.log(1+2+"2");//32 // esa hmne isiliye kra kyunki 
+console.log((3+4)*5%3);//Rule yaad rakhna ⭐
+// + ke saath agar koi operand string ho, to concatenation hota hai.
+
+// JavaScript expressions ko left to right evaluate karta hai.
+
+
+console.log(true);
+
+console.log(+"");
+
+let num1,num2,num3
+// num1=num2=num3=2+2
+
+
+let gameCounter=100;
+gameCounter++;
+console.log(gameCounter);
+
+
+
+
+
+
 
