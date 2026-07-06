@@ -115,3 +115,19 @@ console.log(typeof bigNumber);
 console.log(typeof null);//bhut importanat hai interview m poocha 
 //jata h dhyan rkh null ka type object hota h
 
+//stack(Primitive),Heap(Non-Primtive)
+// let myYoutubename:string
+let myYoutubename="deepanshu.rajput@gmail.com"
+let anothername=myYoutubename
+anothername="chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email:"user@google.com",
+    upi="deepanshu.rajput@oksbi"
+
+}
+let userTwo=userOne
+userTwo.email="hitesh@gmail"
+
