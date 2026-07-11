@@ -32,9 +32,11 @@ JsUser.greeting=function(){
 }
 
 JsUser.greetingTwo=function(){
-    console.log("Helloe User");
+    console.log(`Helloe User,${this.name}`);
 }
-console.log(JsUser.greeting);
+
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
 
 
 
