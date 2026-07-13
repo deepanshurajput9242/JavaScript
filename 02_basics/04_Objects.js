@@ -49,9 +49,33 @@ console.log(obj3);
 
  console.log(tinderUser.hasOwnProperty('isLoggedIn'));//isme poochte h ki isme yh property h ki nhi 
  
+ const course={
+    coursename:"js in Hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+
+ }
+ //course.courseInstructor
  
+ const {courseInstructor:instructor}=course // ab mujhe poora name nhi likhna pdega bs keval hi keval 
+ // instructor bhi print kra du toh chl jayega 
  
- 
+ console.log(instructor);
+
+ const navbar=()=>{
+
+ }
+ navbar(company="hitesh")// yh destructure h
+
+
+ //jb bhi apna kaam kisi or k upar daal dete h use api khte h 
+
+
+//  {
+//     "name":"hitesh",
+//     "coursename":"js in hindi",
+//     "price":"free"
+//  }
  
 
 
